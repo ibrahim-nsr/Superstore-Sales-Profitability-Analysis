@@ -25,21 +25,21 @@ Tracks high-level performance (**Total Sales, Total Profit, Profit Margin, Total
 
 > *Preview below filtered to **2014** to showcase YoY growth indicators (`$4.29M` Sales, `+26.1% vs LY`; `$503.15K` Profit, `+23.2% vs LY`). Across all years: `$12.64M` Total Sales, `$1.47M` Total Profit, `11.61%` Profit Margin, and `25,029` Unique Orders.*
 
-![Executive Overview](images/SS1.jpg)
+![Executive Overview](SS1.jpg)
 
 ---
 
 ### 2. Sales Analysis
 Deep-dives into order economics and geographic performance with **Avg Order Value (`$505`)**, **Total Quantity (`178,238`)**, **Avg Items per Order (`7`)**, and **Unprofitable Orders % (`25.1%` / `6,280` orders)**, alongside Market/Region breakdowns, Current vs. Last Year monthly trends, and Category sales vs. quantity.
 
-![Sales Analysis](images/SS2.jpg)
+![Sales Analysis](SS2.jpg)
 
 ---
 
 ### 3. Product & Customer Insights
 Highlights customer base metrics (**`796` Total Customers**, **`3,788` Unique Products**, **`$1,844` Avg Profit per Customer**) and logistics KPIs (**`4` Avg Shipping Days**, **`$26.4` Avg Shipping Cost**), paired with Sub-Category profitability, Top 5 Customers, Segment Sales Share, and Top 10 Products by Sales.
 
-![Product & Customer Insights](images/SS3.jpg)
+![Product & Customer Insights](SS3.jpg)
 
 ---
 
@@ -61,20 +61,17 @@ Highlights customer base metrics (**`796` Total Customers**, **`3,788` Unique Pr
 
 ---
 
-## Repository Structure
-```text
-├── data/
-│   └── superstore_cleaned.csv        # Cleaned dataset ready for analysis
-├── sql/
-│   └── superstore_analysis.sql       # 10 exploratory SQL queries (SSMS)
-├── excel/
-│   └── superstore_excel_analysis.xlsx # Initial Excel pivot & exploratory analysis
-├── powerbi/
-│   └── SuperStore_Dashboard.pbix     # Interactive 3-page Power BI dashboard
-├── report/
-│   └── Business_Insights_Report.pdf  # Executive summary & findings report
-├── images/
-│   ├── SS1.jpg                       # Page 1: Executive Overview
-│   ├── SS2.jpg                       # Page 2: Sales Analysis
-│   └── SS3.jpg                       # Page 3: Product & Customer Insights
-└── README.md
+## Repository Files
+* `SuperStore Dashboard.pbix` — Interactive 3-page Power BI dashboard
+* `superstore_cleaned.csv` — Cleaned dataset ready for analysis
+* `superstore_analysis.sql` — 10 exploratory SQL queries (SSMS)
+* `superstore_excel_analysis.xlsx` — Initial Excel pivot & exploratory analysis
+* `Final_Business_Insights_Report.pdf` — Executive summary & findings report
+* `SS1.jpg` / `SS2.jpg` / `SS3.jpg` — High-resolution dashboard page previews
+
+---
+
+## How to Use
+1. Clone this repository or download `SuperStore Dashboard.pbix`.
+2. Open the `.pbix` file in **Power BI Desktop**.
+3. Use the top navigation pills (`Executive Overview`, `Sales Analysis`, `Product & Customer Insights`) to switch pages, filter by `Year`, `Market`, or `Segment`, and click the **Reset** icon to clear all active filters.
